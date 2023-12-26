@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react"
 import Taro from "@tarojs/taro"
 import { View } from "@tarojs/components"
-import { Button, Cell, DatePicker, Toast } from "@nutui/nutui-react-taro"
-import type CustomTabBar from "../../custom-tab-bar"
+import { Button, Cell, DatePicker } from "@nutui/nutui-react-taro"
 
 import "./index.scss"
 import { PickerOption } from "@nutui/nutui-react-taro/dist/types/packages/picker/types"
